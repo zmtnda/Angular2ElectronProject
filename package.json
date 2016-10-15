@@ -1,0 +1,52 @@
+{
+  "name": "MentorMe",
+  "version": "1.0.0",
+  "description": "mentor me",
+  "main": "index.js",
+  "scripts": {
+	 "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+    "postinstall": "typings install",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+	 "start": "electron ."
+    
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/angular/angular.io/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "@angular/common": "~2.1.0",
+    "@angular/compiler": "~2.1.0",
+    "@angular/core": "~2.1.0",
+    "@angular/forms": "~2.1.0",
+    "@angular/http": "~2.1.0",
+    "@angular/platform-browser": "~2.1.0",
+    "@angular/platform-browser-dynamic": "~2.1.0",
+    "@angular/router": "~3.1.0",
+    "@angular/upgrade": "~2.1.0",
+    "angular-in-memory-web-api": "~0.1.5",
+	 "es6-shim": "^0.35.0",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.39",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+	 "electron-prebuilt": "^1.2.2",
+    "es6-shim": "^0.34.0",
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.2.2",
+    "typings":"^1.4.0"
+  }
+}
